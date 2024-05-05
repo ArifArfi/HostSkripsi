@@ -8,6 +8,7 @@ import paho.mqtt.publish as publish
 import time
 from datetime import datetime, date
 
+import tensorflow as tf
 import numpy as np  # linear algebra
 from keras.models import load_model
 from PIL import Image
